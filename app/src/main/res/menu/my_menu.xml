@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/item_1"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Item1"
+            app:showAsAction="always"></item>
+        <item
+            android:id="@+id/item_2"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Item2"
+            app:showAsAction="always"></item>
+        <item
+            android:title="a"
+            app:showAsAction="always">
+
+        </item>
+    </group>
+
+    <group>
+        <item android:title="AAAAAA" />
+        <item android:title="AAAAAA" />
+    </group>
+
+
+</menu>
